@@ -1,0 +1,52 @@
+body{
+    background-image:url(./image/234.avif);
+}
+.container{
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color:palevioletred ;
+    margin-left: 33%;
+    border: 2px solid black;
+    margin-top: 30px;
+}
+input{
+    width: 270px;
+    padding:8px ;
+    border: 2px solid orange;
+    outline: none;
+}
+button{
+    width: 60px;
+    height: 41px;
+    background-color: black;
+    color: grey;
+    border:none ;
+    cursor: pointer;
+    outline: none;
+    border-radius:2px ;
+}
+.text ul{
+ position: relative;
+ background-color:wheat;
+color:black;
+padding: 7px;
+font-size: 19px;
+text-align:  left;
+
+ }
+ .text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+
+ }
+ .text ul li {
+    position: relative;
+    padding: 10px 40px 10px 10px; /* Adjusted padding */
+    border-bottom: 0.3px solid #ccc; /* Add bottom border */
+}
+
+.text ul li:last-child {
+    border-bottom: none; /* Remove border from last item */
+}
